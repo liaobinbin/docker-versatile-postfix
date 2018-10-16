@@ -63,7 +63,7 @@ RUN mkdir -p /etc/postfix/dkim \
 ## FINISHED
 
 # Postfix Ports
-EXPOSE 25
+EXPOSE 465
 
 # Add startup script
 ADD startup.sh /opt/startup.sh
